@@ -22,15 +22,14 @@ function sayHiToGrandma (string) {
 }
 
 function sayHiToGrandma (string) {
-  let output = "YES INDEED";
-  if (output.toUpperCase === uppercase) {
+  if (string.toUpperCase === uppercase) {
     console.log("YES INDEED")
   }
 }
 
 function sayHiToGrandma(string) {
   // let output= "I love you, too."
-  if (string === "I love you, Grandma") {
+  if (whisper(string)) {
     console.log('I love you, too')
   }
 }
